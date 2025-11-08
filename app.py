@@ -451,7 +451,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------- APP URL & QR CODE ----------
-APP_URL = "https://pathfinding-algorithm-visualizer-amnatkdbyzpfz2m6gwynsr.streamlit.app/"
+APP_URL = "https://pathfinding-algorithm-visualizer-m6rkahkr3n22nlz2gj4e6m.streamlit.app/"
 
 @st.cache_data
 def generate_qr_base64(url):
