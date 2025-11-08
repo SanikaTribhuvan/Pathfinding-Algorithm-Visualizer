@@ -1,0 +1,10 @@
+streamlit
+osmnx
+networkx
+streamlit-folium
+folium
+pillow
+plotly
+geopy
+gpxpy
+qrcode[pil]
