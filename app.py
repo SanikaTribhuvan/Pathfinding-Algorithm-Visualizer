@@ -447,6 +447,64 @@ st.markdown("""
     div[data-testid="stVerticalBlock"] > div {
         gap: 0.5rem !important;
     }
+    /* Mobile styles */
+
+  @media (max-width: 768px) {
+
+    .hero-title {
+
+      font-size: 1.5rem !important;
+
+      margin-bottom: 0.2rem !important;
+
+    }
+
+    .hero-subtitle {
+
+      font-size: 0.9rem !important;
+
+      margin-bottom: 0.3rem !important;
+
+    }
+
+    .block-container {
+
+      padding-top: 1rem !important;
+
+      padding-bottom: 0.5rem !important;
+
+      max-width: 100% !important;
+
+    }
+
+    .panel {
+
+      padding: 0.75rem !important;
+
+    }
+
+    /* Reduce gaps in vertical blocks for compactness */
+
+    div[data-testid="stVerticalBlock"] > div {
+
+      gap: 0.3rem !important;
+
+    }
+
+    /* Map container height for mobile */
+
+    .folium-map {
+
+      height: 400px !important;
+
+      width: 100% !important;
+
+    }
+
+  }
+
+  }        
+            
 </style>
 """, unsafe_allow_html=True)
 
